@@ -11,8 +11,8 @@ pygame.init()
 class Faceu(object):
     # 获取access_token
     def get_access_token(self):
-        client_id = 'UQKOPmBDwTsDAXTtjD7z9fCQ'
-        client_secret = 'w9UlIcqfS622YfyMmRf2Sp39RlGWUWIm'
+        client_id = '　　' # 自己注册的百度ID
+        client_secret = '　　' # 自己注册的百度ID
         host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=' + client_id + '&client_secret=' + client_secret
         response = requests.get(host)
         # response.add_header('Content-Type', 'application/json; charset=UTF-8')
